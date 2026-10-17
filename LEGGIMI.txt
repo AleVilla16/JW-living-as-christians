@@ -1,0 +1,25 @@
+LIVING AS CHRISTIANS - come pubblicarla come web app
+
+File inclusi (tienili tutti nella stessa cartella, senza cambiare i nomi):
+  index.html            l'app completa
+  manifest.webmanifest  nome e icona quando la si installa sul telefono
+  sw.js                 permette di usarla anche senza connessione
+  icon-192.png, icon-512.png
+
+Metodo piu semplice (Netlify Drop):
+  1. Vai su app.netlify.com/drop
+  2. Trascina la cartella con questi file.
+  3. Ricevi subito un indirizzo https da condividere.
+
+Altre opzioni gratuite: GitHub Pages, Cloudflare Pages, Vercel (carica gli stessi file).
+L'indirizzo deve essere https, altrimenti l'installazione e l'uso offline non funzionano.
+
+Installarla sul telefono: apri l'indirizzo con Chrome o Safari e scegli
+"Aggiungi a schermata Home" (o "Installa app").
+
+IMPORTANTE:
+  - I dati (squadre, partite, carte modificate, immagini, PDF del regolamento) restano nel browser del
+    singolo dispositivo e dell'indirizzo che usi. Cambiando indirizzo o dispositivo ripartono da zero:
+    usa Impostazioni > Esporta per portare carte e immagini da un dispositivo all'altro.
+  - Quando carichi una nuova versione di index.html, apri l'app due volte per vederla aggiornata.
+  - Il logo JW.org non e incluso: caricalo tu dal riquadro LOGO.
